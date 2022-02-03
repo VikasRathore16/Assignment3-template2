@@ -46,31 +46,26 @@ p{
 }
 
 #main-content{
-    width: 65%;
+    width: 60%;
     float: left;
     background-color: white;
     padding: 20px;
-    display: inline;
-    height: fit-content;
-    
-
 }
 #summary p{
     font-size: 1.0em;
 }
 #content{
-    overflow: hidden;
-   
+    overflow: hidden; 
+    display: flex;
 }
 #sidebar{
-    width: 30%;
-    float: right;
-    
+    width: 30%;  
+    float: right; 
+    padding: 2%; 
 }
 
 #footer {
     max-width: auto;
-    height:max-content;   /* Height of the footer */
     background: rgb(190, 187, 187);
     text-align: right;
     padding: 1.0em;
