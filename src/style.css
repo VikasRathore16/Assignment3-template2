@@ -1,6 +1,6 @@
 body{
     background-color: rgb(204,204,204);
-    font-family: monospace;
+    font-family: sans-serif;
 }
 #header h1{
     padding-left: 10px;
@@ -13,7 +13,7 @@ ul{
     margin: 0px;
     padding: 0px;
     
-    font-size: 1.1em;
+    font-size: 1.0em;
 
 }
 li{
@@ -33,4 +33,37 @@ li a{
 }
 li a:hover{
     background-color: green;
+}
+#page-heading,#side-heading{
+    color: #003D60;
+    margin-bottom: 0px;
+    
+}
+p{
+    margin-top: 1px;
+    padding-right: 1.5em;
+    
+}
+
+#main-content{
+    width: 65%;
+    float: left;
+    background-color: white;
+    padding: 20px;
+    display: inline;
+    height: fit-content;
+    
+
+}
+#summary p{
+    font-size: 1.0em;
+}
+#content{
+    overflow: hidden;
+   
+}
+#sidebar{
+    width: 30%;
+    float: right;
+    
 }
